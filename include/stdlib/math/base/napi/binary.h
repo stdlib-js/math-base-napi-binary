@@ -19,8 +19,8 @@
 #ifndef STDLIB_MATH_BASE_NAPI_BINARY_H
 #define STDLIB_MATH_BASE_NAPI_BINARY_H
 
-#include "stdlib/complex/float32.h"
-#include "stdlib/complex/float64.h"
+#include "stdlib/complex/float32/ctor.h"
+#include "stdlib/complex/float64/ctor.h"
 #include <node_api.h>
 #include <assert.h>
 
@@ -190,8 +190,8 @@
 * @param fcn   binary function
 *
 * @example
-* #include "stdlib/complex/float64.h"
-* #include "stdlib/complex/reim.h"
+* #include "stdlib/complex/float64/ctor.h"
+* #include "stdlib/complex/float64/reim.h"
 *
 * static stdlib_complex128_t add( const stdlib_complex128_t x, const stdlib_complex128_t y ) {
 *     double xre;
@@ -201,8 +201,8 @@
 *     double re;
 *     double im;
 *
-*     stdlib_reim( x, &xre, &xim );
-*     stdlib_reim( y, &yre, &yim );
+*     stdlib_complex128_reim( x, &xre, &xim );
+*     stdlib_complex128_reim( y, &yre, &yim );
 *
 *     re = xre + yre;
 *     im = xim + yim;
@@ -246,8 +246,8 @@
 * @param fcn   binary function
 *
 * @example
-* #include "stdlib/complex/float32.h"
-* #include "stdlib/complex/reimf.h"
+* #include "stdlib/complex/float32/ctor.h"
+* #include "stdlib/complex/float32/reim.h"
 *
 * static stdlib_complex64_t add( const stdlib_complex64_t x, const stdlib_complex64_t y ) {
 *     float xre;
@@ -257,8 +257,8 @@
 *     float re;
 *     float im;
 *
-*     stdlib_reimf( x, &xre, &xim );
-*     stdlib_reimf( y, &yre, &yim );
+*     stdlib_complex64_reim( x, &xre, &xim );
+*     stdlib_complex64_reim( y, &yre, &yim );
 *
 *     re = xre + yre;
 *     im = xim + yim;
@@ -386,15 +386,15 @@
 * @param fcn   binary function
 *
 * @example
-* #include "stdlib/complex/float64.h"
-* #include "stdlib/complex/reim.h"
+* #include "stdlib/complex/float64/ctor.h"
+* #include "stdlib/complex/float64/reim.h"
 * #include <stdint.h>
 *
 * static stdlib_complex128_t mul( const stdlib_complex128_t x, const int32_t n ) {
 *     double re;
 *     double im;
 *
-*     stdlib_reim( x, &re, &im );
+*     stdlib_complex128_reim( x, &re, &im );
 *     return stdlib_complex128( re*n, im*n );
 * }
 *
@@ -434,15 +434,15 @@
 * @param fcn   binary function
 *
 * @example
-* #include "stdlib/complex/float32.h"
-* #include "stdlib/complex/reimf.h"
+* #include "stdlib/complex/float32/ctor.h"
+* #include "stdlib/complex/float32/reim.h"
 * #include <stdint.h>
 *
 * static stdlib_complex64_t mul( const stdlib_complex64_t x, const int32_t n ) {
 *     float re;
 *     float im;
 *
-*     stdlib_reimf( x, &re, &im );
+*     stdlib_complex64_reim( x, &re, &im );
 *     return stdlib_complex64( re*n, im*n );
 * }
 *
@@ -482,14 +482,14 @@
 * @param fcn   binary function
 *
 * @example
-* #include "stdlib/complex/float64.h"
-* #include "stdlib/complex/reim.h"
+* #include "stdlib/complex/float64/ctor.h"
+* #include "stdlib/complex/float64/reim.h"
 *
 * static stdlib_complex128_t mul( const stdlib_complex128_t x, const double n ) {
 *     double re;
 *     double im;
 *
-*     stdlib_reim( x, &re, &im );
+*     stdlib_complex128_reim( x, &re, &im );
 *     return stdlib_complex128( re*n, im*n );
 * }
 *
@@ -529,14 +529,14 @@
 * @param fcn   binary function
 *
 * @example
-* #include "stdlib/complex/float32.h"
-* #include "stdlib/complex/reimf.h"
+* #include "stdlib/complex/float32/ctor.h"
+* #include "stdlib/complex/float32/reim.h"
 *
 * static stdlib_complex64_t mul( const stdlib_complex64_t x, const float n ) {
 *     float re;
 *     float im;
 *
-*     stdlib_reimf( x, &re, &im );
+*     stdlib_complex64_reim( x, &re, &im );
 *     return stdlib_complex64( re*n, im*n );
 * }
 *
