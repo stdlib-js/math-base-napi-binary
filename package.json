@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-napi-binary",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "C APIs for registering a Node-API module exporting an interface for invoking a binary numerical function.",
   "license": "Apache-2.0",
   "author": {
@@ -41,20 +41,20 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-float32-ctor": "^0.0.1",
-    "@stdlib/complex-float32-reim": "github:stdlib-js/complex-float32-reim#main",
-    "@stdlib/complex-float64-ctor": "^0.0.1",
-    "@stdlib/complex-float64-reim": "github:stdlib-js/complex-float64-reim#main",
-    "@stdlib/utils-library-manifest": "^0.2.1"
+    "@stdlib/complex-float32-ctor": "^0.0.2",
+    "@stdlib/complex-float32-reim": "^0.1.2",
+    "@stdlib/complex-float64-ctor": "^0.0.3",
+    "@stdlib/complex-float64-reim": "^0.1.2",
+    "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-browser": "^0.2.1",
-    "@stdlib/math-base-assert-is-nan": "^0.2.1",
-    "@stdlib/utils-try-require": "^0.2.1",
+    "@stdlib/assert-is-browser": "^0.2.2",
+    "@stdlib/math-base-assert-is-nan": "^0.2.2",
+    "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
