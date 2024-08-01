@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`eb7f8ed`](https://github.com/stdlib-js/stdlib/commit/eb7f8ed40d9a514a673f5152484f62042dc24e67) - **docs:** add missing `stdint` includes [(#2728)](https://github.com/stdlib-js/stdlib/pull/2728) _(by Gunj Joshi, Athan Reines)_
 -   [`46cda32`](https://github.com/stdlib-js/stdlib/commit/46cda325a622274755194c2dd6415d3d04ab5a5b) - **feat:** add `LL_D` in `math/base/napi/binary` [(#2726)](https://github.com/stdlib-js/stdlib/pull/2726) _(by Gunj Joshi, Athan Reines)_
 
 </details>
