@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-22)
+## Unreleased (2024-10-01)
 
 <section class="features">
 
@@ -100,7 +100,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 -   Aman Bhansali
 -   Athan Reines
--   Pranav
+-   Pranav Goswami
 
 </section>
 
