@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-03)
+## Unreleased (2025-01-06)
 
 <section class="features">
 
 ### Features
 
+-   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522)
 -   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315)
 -   [`46cda32`](https://github.com/stdlib-js/stdlib/commit/46cda325a622274755194c2dd6415d3d04ab5a5b) - add `LL_D` in `math/base/napi/binary` [(#2726)](https://github.com/stdlib-js/stdlib/pull/2726)
 
@@ -23,6 +24,7 @@
 
 <details>
 
+-   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - **feat:** add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315) _(by Gunj Joshi)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 -   [`eb7f8ed`](https://github.com/stdlib-js/stdlib/commit/eb7f8ed40d9a514a673f5152484f62042dc24e67) - **docs:** add missing `stdint` includes [(#2728)](https://github.com/stdlib-js/stdlib/pull/2728) _(by Gunj Joshi, Athan Reines)_
@@ -38,11 +40,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Gunj Joshi
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 
 </section>
 
