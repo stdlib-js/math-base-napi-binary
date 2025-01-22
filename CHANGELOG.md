@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-06)
+## Unreleased (2025-01-22)
 
 <section class="features">
 
 ### Features
 
+-   [`894885f`](https://github.com/stdlib-js/stdlib/commit/894885f83d8449b30210e87c30aed433be7832ad) - add `FC_C` macro
+-   [`cbaae4c`](https://github.com/stdlib-js/stdlib/commit/cbaae4c97c36e4d6b1f62c4bed3a74519d72742e) - add `DZ_Z` macro
 -   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522)
 -   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315)
 -   [`46cda32`](https://github.com/stdlib-js/stdlib/commit/46cda325a622274755194c2dd6415d3d04ab5a5b) - add `LL_D` in `math/base/napi/binary` [(#2726)](https://github.com/stdlib-js/stdlib/pull/2726)
@@ -24,6 +26,11 @@
 
 <details>
 
+-   [`894885f`](https://github.com/stdlib-js/stdlib/commit/894885f83d8449b30210e87c30aed433be7832ad) - **feat:** add `FC_C` macro _(by Athan Reines)_
+-   [`89df5ae`](https://github.com/stdlib-js/stdlib/commit/89df5ae1fd161a19ad094eeef14d9b6f17551975) - **docs:** add `DZ_Z` docs _(by Athan Reines)_
+-   [`8a62393`](https://github.com/stdlib-js/stdlib/commit/8a62393548250469afe4e7e34e112a0299da122b) - **docs:** reorder APIs and add missing docs _(by Athan Reines)_
+-   [`cbaae4c`](https://github.com/stdlib-js/stdlib/commit/cbaae4c97c36e4d6b1f62c4bed3a74519d72742e) - **feat:** add `DZ_Z` macro _(by Athan Reines)_
+-   [`bf703d6`](https://github.com/stdlib-js/stdlib/commit/bf703d6a49610e04b628d613a7a0dbf482132890) - **refactor:** move macros and functions to separate files _(by Athan Reines)_
 -   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - **feat:** add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`7d8ab5a`](https://github.com/stdlib-js/stdlib/commit/7d8ab5a148946f94121316cc1dc5d22936e7ea57) - **feat:** add `ii_f` API in `math/base/napi/binary` [(#3315)](https://github.com/stdlib-js/stdlib/pull/3315) _(by Gunj Joshi)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
