@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-22)
+## Unreleased (2025-01-23)
 
 <section class="features">
 
@@ -26,6 +26,7 @@
 
 <details>
 
+-   [`0e011ca`](https://github.com/stdlib-js/stdlib/commit/0e011ca8c06a909d9d424a387f91c34535e0e7c3) - **docs:** update comment _(by Athan Reines)_
 -   [`894885f`](https://github.com/stdlib-js/stdlib/commit/894885f83d8449b30210e87c30aed433be7832ad) - **feat:** add `FC_C` macro _(by Athan Reines)_
 -   [`89df5ae`](https://github.com/stdlib-js/stdlib/commit/89df5ae1fd161a19ad094eeef14d9b6f17551975) - **docs:** add `DZ_Z` docs _(by Athan Reines)_
 -   [`8a62393`](https://github.com/stdlib-js/stdlib/commit/8a62393548250469afe4e7e34e112a0299da122b) - **docs:** reorder APIs and add missing docs _(by Athan Reines)_
