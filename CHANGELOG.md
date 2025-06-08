@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-06-08)
 
 <section class="features">
 
 ### Features
 
+-   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - add signed 16-bit integer APIs
+-   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - add signed 8-bit integer APIs
+-   [`d1b7fe1`](https://github.com/stdlib-js/stdlib/commit/d1b7fe117cae21279fb8e62283ba7693822bda4d) - add unsigned 32-bit integer APIs
+-   [`5ff1e27`](https://github.com/stdlib-js/stdlib/commit/5ff1e2760c40b9318c9a4cbfb1c8d4ccb5644de5) - add unsigned 16-bit integer APIs
+-   [`e83a528`](https://github.com/stdlib-js/stdlib/commit/e83a5284d2c9db6b968ac2edd81c43f4b76549d5) - add unsigned 8-bit integer APIs
 -   [`894885f`](https://github.com/stdlib-js/stdlib/commit/894885f83d8449b30210e87c30aed433be7832ad) - add `FC_C` macro
 -   [`cbaae4c`](https://github.com/stdlib-js/stdlib/commit/cbaae4c97c36e4d6b1f62c4bed3a74519d72742e) - add `DZ_Z` macro
 -   [`515162f`](https://github.com/stdlib-js/stdlib/commit/515162f4c482eaefa95cd80290e30bfc868d9a04) - add `STDLIB_MATH_BASE_NAPI_MODULE_ID_D` macro in `math/base/napi/binary` [(#4522)](https://github.com/stdlib-js/stdlib/pull/4522)
@@ -48,6 +53,11 @@ This release closes the following issue:
 
 <details>
 
+-   [`2e5601a`](https://github.com/stdlib-js/stdlib/commit/2e5601ac124eba7f7da0079cf9c8124c21810c3d) - **feat:** add signed 16-bit integer APIs _(by Athan Reines)_
+-   [`3e17026`](https://github.com/stdlib-js/stdlib/commit/3e17026605bc56416822aa289fd4e2f428c3bf11) - **feat:** add signed 8-bit integer APIs _(by Athan Reines)_
+-   [`d1b7fe1`](https://github.com/stdlib-js/stdlib/commit/d1b7fe117cae21279fb8e62283ba7693822bda4d) - **feat:** add unsigned 32-bit integer APIs _(by Athan Reines)_
+-   [`5ff1e27`](https://github.com/stdlib-js/stdlib/commit/5ff1e2760c40b9318c9a4cbfb1c8d4ccb5644de5) - **feat:** add unsigned 16-bit integer APIs _(by Athan Reines)_
+-   [`e83a528`](https://github.com/stdlib-js/stdlib/commit/e83a5284d2c9db6b968ac2edd81c43f4b76549d5) - **feat:** add unsigned 8-bit integer APIs _(by Athan Reines)_
 -   [`bf96d9c`](https://github.com/stdlib-js/stdlib/commit/bf96d9c48edad2e98489d73f1e21fe621fe96f91) - **fix:** rename internal variable `fcn` to avoid shadowing and lint errors [(#6481)](https://github.com/stdlib-js/stdlib/pull/6481) _(by Karan Anand, Athan Reines)_
 -   [`0e011ca`](https://github.com/stdlib-js/stdlib/commit/0e011ca8c06a909d9d424a387f91c34535e0e7c3) - **docs:** update comment _(by Athan Reines)_
 -   [`894885f`](https://github.com/stdlib-js/stdlib/commit/894885f83d8449b30210e87c30aed433be7832ad) - **feat:** add `FC_C` macro _(by Athan Reines)_
